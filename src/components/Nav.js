@@ -2,18 +2,9 @@ import React, { useState, useEffect } from 'react';
 
 function Nav() {
 
-    const mobileMenuHandler = (event) => {
-        const btn = document.querySelector("button.mobile-menu-button");
-        const menu = document.querySelector(".mobile-menu");
-    
-        btn.addEventListener("click", () => {
-            menu.classList.toggle("hidden");
-        });
-    }
-
     return (
         <div>
-            <div class="container mt-2 mx-5 py-3">
+            <div class="container mt-2 mx-auto">
                 <div class="md:flex md:items-center md:justify-between">
                     <div class="flex justify-between items-center">
 
@@ -29,10 +20,10 @@ function Nav() {
 
                     {/* Mobile Menu open: "block", Menu closed: "hidden" */}
                     <div class="hidden -mx-4 md:flex md:items-center mt-8">
-                        <a href="#" class="block mx-4 mt-2 md:mt-0 text-l text-gray-50 capitalize hover:text-blue-600">Home</a>
-                        <a href="#" class="block mx-4 mt-2 md:mt-0 text-l text-gray-50 capitalize hover:text-blue-600">About</a>
-                        <a href="#" class="block mx-4 mt-2 md:mt-0 text-l text-gray-50 capitalize hover:text-blue-600">Projects</a>
-                        <a href="#" class="block mx-4 mt-2 md:mt-0 text-l text-gray-50 capitalize hover:text-blue-600">Contact</a>
+                        <a href="#" class="block mx-4 mt-2 md:mt-0 text-l text-gray-50 capitalize hover:text-green-400">Home</a>
+                        <a href="#" class="block mx-4 mt-2 md:mt-0 text-l text-gray-50 capitalize hover:text-green-400">About</a>
+                        <a href="#" class="block mx-4 mt-2 md:mt-0 text-l text-gray-50 capitalize hover:text-green-400">Projects</a>
+                        <a href="#" class="block mx-4 mt-2 md:mt-0 text-l text-gray-50 capitalize hover:text-green-400">Contact</a>
                     </div>
                 </div>
             </div>
