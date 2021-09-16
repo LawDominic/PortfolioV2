@@ -1,7 +1,7 @@
 // Component imports
 import HeaderAnimation from "./components/HeaderAnimation";
 import Nav from "./components/Nav";
-import bg from "./images/header1.jpg";
+import bg from "./images/header.jpg";
 import "./App.css";
 
 // Page imports
