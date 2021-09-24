@@ -8,7 +8,7 @@ function Projects() {
             <div class="grid items-center mx-auto sm:grid-cols-1 md:grid-cols-2 lg:w-max md:w-2/3 sm:w-max lg:grid-cols-3">
                 <div class="overflow-hidden shadow-lg rounded-lg w-80 md:w-80 cursor-pointer m-10 p-4 bg-gray-50 transition duration-200 ease-in-out transform hover:translate-y-5 hover:shadow-2xl">
                     <a href="https://github.com/LawDominic/TravelFun" target="_blank" class="w-full block h-full">
-                        <img src={`${travelfunIcon}`} class="max-h-60 w-full object-cover"/>
+                        <img src={`${travelfunIcon}`} class="max-h-60 w-full object-cover" alt="travelfun"/>
                         <div class="w-full">
                             <p class="text-gray-800 dark:text-white text-xl font-medium mb-2">
                                 TravelFun
@@ -29,7 +29,7 @@ function Projects() {
                 </div>
                 <div class="overflow-hidden shadow-lg rounded-lg w-80 md:w-80 cursor-pointer m-10 p-4 bg-gray-50 transition duration-200 ease-in-out transform hover:translate-y-5 hover:shadow-2xl">
                     <a href="https://github.com/LawDominic/ASXCrypto" target="_blank" class="w-full block h-full">
-                        <img src={`${placeholderImg}`} class="max-h-60 w-full object-cover"/>
+                        <img src={`${placeholderImg}`} class="max-h-60 w-full object-cover" alt="placeholder"/>
                         <div class="w-full">
                             <p class="text-gray-800 dark:text-white text-xl font-medium mb-2">
                                 ASXCrypto
@@ -58,7 +58,7 @@ function Projects() {
                 </div>
                 <div class="overflow-hidden shadow-lg rounded-lg w-80 md:w-80 cursor-pointer m-10 p-4 bg-gray-50 transition duration-200 ease-in-out transform hover:translate-y-5 hover:shadow-2xl">
                     <a href="https://github.com/LawDominic" target="_blank" class="w-full block h-full">
-                        <img src={`${placeholderImg}`} class="max-h-60 w-full object-cover"/>
+                        <img src={`${placeholderImg}`} class="max-h-60 w-full object-cover" alt="placeholder"/>
                         <div class="w-full">
                             <p class="text-gray-800 dark:text-white text-xl font-medium mb-2">
                                 PoemShare

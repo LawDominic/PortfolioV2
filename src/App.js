@@ -1,5 +1,5 @@
 // Component imports
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import HeaderAnimation from "./components/HeaderAnimation";
 import Nav from "./components/Nav";
 import bg from "./images/header.jpg";
