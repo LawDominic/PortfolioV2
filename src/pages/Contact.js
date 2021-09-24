@@ -14,20 +14,20 @@ function Contact() {
                         <FeatherIcon icon="mail" />
                     </a>
                 </div>
-                <div class="overflow-hidden shadow-lg rounded-lg w-50 md:w-50 cursor-pointer m-10 p-4 bg-gray-50 transition duration-200 ease-in-out transform hover:translate-y-1 hover:shadow-2xl hover:text-green-400">
+                <div class="overflow-hidden shadow-lg rounded-lg w-50 cursor-pointer m-10 p-4 bg-gray-50 transition duration-200 ease-in-out transform hover:translate-y-1 hover:shadow-2xl hover:text-green-400">
                     <a href="https://github.com/LawDominic" target="_blank" class="flex space-x-1">
                         <FeatherIcon icon="github" />
-                        <div class="w-full">
+                        <div class="w-full hidden md:block">
                             <p class="text-gray-800 dark:text-white font-medium">
                             LawDominic
                             </p>
                         </div>
                     </a>
                 </div>
-                <div class="overflow-hidden shadow-lg rounded-lg w-50 md:w-50 cursor-pointer m-10 p-4 bg-gray-50 transition duration-200 ease-in-out transform hover:translate-y-1 hover:shadow-2xl hover:text-green-400">
+                <div class="overflow-hidden shadow-lg rounded-lg w-50 cursor-pointer m-10 p-4 bg-gray-50 transition duration-200 ease-in-out transform hover:translate-y-1 hover:shadow-2xl hover:text-green-400">
                     <a href="https://www.linkedin.com/in/lawdominic/" target="_blank" class="flex space-x-1">
                         <FeatherIcon icon="linkedin" />
-                        <div class="w-full">
+                        <div class="w-full hidden md:block">
                             <p class="text-gray-800 dark:text-white font-medium">
                             LawDominic
                             </p>
