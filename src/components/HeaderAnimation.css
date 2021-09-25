@@ -13,7 +13,7 @@
 }
 
 #header-content p:nth-child(1) {
-    width: 12.5em;
+    width: 13em;
     -webkit-animation: type 3s steps(45, end);
     animation: type 3s steps(45, end);
     -webkit-animation-fill-mode: forwards;
