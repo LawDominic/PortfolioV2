@@ -1,5 +1,6 @@
 #header-content {
     color: #ededed;
+    text-align:left;
 }
 
 #header-content p {
@@ -13,7 +14,7 @@
 }
 
 #header-content p:nth-child(1) {
-    width: 13em;
+    width: 13.2em;
     -webkit-animation: type 3s steps(45, end);
     animation: type 3s steps(45, end);
     -webkit-animation-fill-mode: forwards;
@@ -21,7 +22,7 @@
 }
 
 #header-content p:nth-child(2) {
-    width: 30.3em;
+    width: 31.4em;
     opacity: 0;
     -webkit-animation: type 3s steps(45, end);
     animation: type 3s steps(45, end);
@@ -32,7 +33,7 @@
 }
 
 #header-content p:nth-child(3) {
-    width: 29.6em;
+    width: 30.4em;
     opacity: 0;
     -webkit-animation: type 3s steps(45, end);
     animation: type 3s steps(45, end);
@@ -43,7 +44,7 @@
 }
 
 #header-content p:nth-child(4) {
-    width: 22.5em;
+    width: 23em;
     opacity: 0;
     -webkit-animation: type2 3s steps(45, end),
         blink 0.5s step-end infinite alternate;
