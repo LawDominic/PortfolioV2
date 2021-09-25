@@ -162,13 +162,13 @@
         font-size: 14px;
     }
     #header-content p:nth-child(2) {
-        width: 31.4em;
+        width: 33em;
     }
     #header-content p:nth-child(3) {
-        width: 30.4em;
+        width: 32.5em;
     }
     #header-content p:nth-child(4) {
-        width: 23em;
+        width: 24em;
     }
 }
 
@@ -178,12 +178,12 @@
         font-size: 18px;
     }
     #header-content p:nth-child(2) {
-        width: 33em;
+        width: 31.4em;
     }
     #header-content p:nth-child(3) {
-        width: 32.5em;
+        width: 30.4em;
     }
     #header-content p:nth-child(4) {
-        width: 24em;
+        width: 23em;
     }
 }
