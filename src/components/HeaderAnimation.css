@@ -129,6 +129,15 @@
     #header-content {
         font-size: 11px;
     }
+    #header-content p:nth-child(2) {
+        width: 33em;
+    }
+    #header-content p:nth-child(3) {
+        width: 32.5em;
+    }
+    #header-content p:nth-child(4) {
+        width: 24em;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -136,19 +145,30 @@
     #header-content {
         font-size: 12px;
     }
+    #header-content p:nth-child(2) {
+        width: 33em;
+    }
+    #header-content p:nth-child(3) {
+        width: 32.5em;
+    }
+    #header-content p:nth-child(4) {
+        width: 24em;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     #header-content {
-        font-size: 12px;
+        font-size: 14px;
     }
-}
-
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    #header-content {
-        font-size: 12px;
+    #header-content p:nth-child(2) {
+        width: 31.4em;
+    }
+    #header-content p:nth-child(3) {
+        width: 30.4em;
+    }
+    #header-content p:nth-child(4) {
+        width: 23em;
     }
 }
 
@@ -156,5 +176,14 @@
 @media (min-width: 1600px) {
     #header-content {
         font-size: 18px;
+    }
+    #header-content p:nth-child(2) {
+        width: 33em;
+    }
+    #header-content p:nth-child(3) {
+        width: 32.5em;
+    }
+    #header-content p:nth-child(4) {
+        width: 24em;
     }
 }
