@@ -148,6 +148,13 @@
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     #header-content {
+        font-size: 14px;
+    }
+}
+
+/* 2X-Large devices (2x-large desktops, 1600px and up) */
+@media (min-width: 1600px) {
+    #header-content {
         font-size: 18px;
     }
 }
