@@ -1,2 +1,2 @@
 release: npm run build
-web: bin/boot
+web: node server.js
