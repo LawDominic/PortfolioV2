@@ -1,4 +1,5 @@
 import travelfunIcon from "../images/portfolio/travelfun.png";
+import poemshareIcon from "../images/portfolio/poemshare.png";
 import placeholderImg from "../images/portfolio/placeholder.jpg";
 
 function Projects() {
@@ -58,7 +59,7 @@ function Projects() {
                 </div>
                 <div class="overflow-hidden shadow-lg rounded-lg w-80 md:w-80 cursor-pointer m-10 p-4 bg-gray-50 transition duration-200 ease-in-out transform hover:translate-y-5 hover:shadow-2xl">
                     <a href="https://github.com/LawDominic" target="_blank" rel="noreferrer" class="w-full block h-full">
-                        <img src={`${placeholderImg}`} class="max-h-60 w-full object-cover" alt="placeholder"/>
+                        <img src={`${poemshareIcon}`} class="max-h-60 w-full object-cover" alt="placeholder"/>
                         <div class="w-full">
                             <p class="text-gray-800 dark:text-white text-xl font-medium mb-2">
                                 PoemShare
