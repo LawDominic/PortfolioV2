@@ -58,7 +58,7 @@ function Projects() {
                     </a>
                 </div>
                 <div class="overflow-hidden shadow-lg rounded-lg w-80 md:w-80 cursor-pointer m-10 p-4 bg-gray-50 transition duration-200 ease-in-out transform hover:translate-y-5 hover:shadow-2xl">
-                    <a href="https://github.com/LawDominic" target="_blank" rel="noreferrer" class="w-full block h-full">
+                    <a href="https://github.com/LawDominic/PoemShare" target="_blank" rel="noreferrer" class="w-full block h-full">
                         <img src={`${poemshareIcon}`} class="h-60 w-full object-contain" alt="poemshare"/>
                         <div class="w-full">
                             <p class="text-gray-800 dark:text-white text-xl font-medium mb-2 mt-2">
