@@ -1,5 +1,3 @@
-import HeaderAnimationCSS from "./HeaderAnimation.css";
-
 function HeaderAnimation() {
     return (
         <div id="header-content" class="container sm:mx-auto break-words w-screen mt-64 md:text-sm md:mt-0 lg:text-base">
